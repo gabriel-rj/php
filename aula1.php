@@ -5,6 +5,7 @@
     $altura = 1.70;
     $logico = true; 
     const senac = "Caxias";
+    
 
     echo $nome . "<br> " . $idade . "<br>" . $altura . " " . $logico ; 
    echo senac;
