@@ -16,6 +16,14 @@
   <?php require "includes/menu.php";?>
   <h1>Cadastro Estado</h1>
 
+  <form method="post" action="acao/acaoEstado.php">
+  <div class="form-group">
+    <label for="exampleInputEmail1">Nome do Estado</label>
+    <input type="text" name="nome" class="form-control"  aria-describedby="emailHelp" placeholder="Cadastro Estado">
+  </div>
+  <input type="submit" name="enviar" value="Cadastrar Estado" class="btn btn-dark">
+</form>
+
   <?php require "includes/rodape.php";?>
 </div>
     <!-- JavaScript (Opcional) -->

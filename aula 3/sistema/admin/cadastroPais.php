@@ -21,7 +21,7 @@
     <label for="exampleInputEmail1">Nome do País</label>
     <input type="text" name="nome" class="form-control"  aria-describedby="emailHelp" placeholder="Cadastro País">
   </div>
-  <input type="submit" name="enviar" value="Cadastrar País" class="btn btn-primary">
+  <input type="submit" name="enviar" value="Cadastrar País" class="btn btn-dark">
 </form>
 
   <?php require "includes/rodape.php";?>
