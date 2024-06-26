@@ -39,6 +39,7 @@
 
   <input type="submit" name="enviar" value="enviar" class="btn btn-dark">
 </form>
+  ?>
 
   <?php require "includes/rodape.php";?>
 </div>

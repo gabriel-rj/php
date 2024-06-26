@@ -20,7 +20,7 @@
     if(  isset($_SESSION['logar'] )){
       echo "Bem vindo";
     } else {
-      header("location ../index.php");
+      header("location: ../index.php");
       session_destroy();
     }
      
