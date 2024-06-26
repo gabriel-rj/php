@@ -11,19 +11,19 @@
         
 
         if (empty(trim($nome))){
-        echo "<script> alert ('campo em branco');window.location.href='../cadastroCliente.php'; </script>";
+        echo "<script> alert ('campo em branco');window.location.href='../cadastroUsuario.php'; </script>";
         } else if (empty(trim($cpf))){
-        echo "<script> alert ('campo em branco');window.location.href='../cadastroCliente.php'; </script>";
+        echo "<script> alert ('campo em branco');window.location.href='../cadastroUsuario.php'; </script>";
         } else if (empty(trim($endereco))){
-        echo "<script> alert ('campo em branco');window.location.href='../cadastroCliente.php'; </script>";
+        echo "<script> alert ('campo em branco');window.location.href='../cadastroUsuario.php'; </script>";
         } else if (empty(trim($nivel))){
-        echo "<script> alert ('campo em branco');window.location.href='../cadastroCliente.php'; </script>";
+        echo "<script> alert ('campo em branco');window.location.href='../cadastroUsuario.php'; </script>";
         } else if (empty(trim($email))){
-        echo "<script> alert ('campo em branco');window.location.href='../cadastroCliente.php'; </script>";
+        echo "<script> alert ('campo em branco');window.location.href='../cadastroUsuario.php'; </script>";
         } else if (empty(trim($senha))){
-        echo "<script> alert ('campo em branco');window.location.href='../cadastroCliente.php'; </script>";
+        echo "<script> alert ('campo em branco');window.location.href='../cadastroUsuario.php'; </script>";
         } else if (empty(trim($status))){
-        echo "<script> alert ('campo em branco');window.location.href='../cadastroCliente.php'; </script>";
+        echo "<script> alert ('campo em branco');window.location.href='../cadastroUsuario.php'; </script>";
         }else{
             echo $nome . "<br>" . $cpf . "<br> " . $endereco . "<br> " . $nivel . "<br> " . $email . " <br>" . $senha . "<br> " . $status;
         }

@@ -22,7 +22,7 @@
 <div class="row">
   <div class="col-md-12">
     <div class="form-group">
-    <label for="exampleInputEmail1">Nome</label>
+    <label  for="exampleInputEmail1">Nome</label>
     <input type="text" name="nome" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Seu nome">
     </div>
   </div>

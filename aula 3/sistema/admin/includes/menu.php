@@ -6,6 +6,9 @@
     <a class="nav-link" href="cadastroCliente.php">Cadastro Cliente</a>
   </li>
   <li class="nav-item">
+    <a class="nav-link" href="cadastroUsuario.php">Cadastro Usuário</a>
+  </li>
+  <li class="nav-item">
     <a class="nav-link" href="cadastroFornecedor.php">Cadastro Fornecedor</a>
   </li>
   <li class="nav-item">

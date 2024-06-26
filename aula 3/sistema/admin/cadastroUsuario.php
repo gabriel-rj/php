@@ -21,7 +21,7 @@
 <div class="row">
   <div class="col-md-12">
     <div class="form-group">
-    <label for="exampleInputEmail1">Nome</label>
+    <label style="font-weight: bold;" for="exampleInputEmail1">Nome</label>
     <input type="text" name="nome" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Seu nome">
     </div>
   </div>
@@ -30,7 +30,7 @@
 <div class="row">
     <div class="col-md-4">
       <div class="form-group">
-      <label for="exampleInputEmail1">CPF</label>
+      <label style="font-weight: bold;" for="exampleInputEmail1">CPF</label>
       <input type="text" name="cpf" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="000.000.000-00">
       </div>
     </div>
@@ -38,14 +38,14 @@
     
     <div class="col-md-6">
       <div class="form-group">
-      <label for="exampleInputEmail1">Endereço</label>
-      <input type="text" name="endereco" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="isira o endereço">
+      <label style="font-weight: bold;" for="exampleInputEmail1">Endereço</label>
+      <input type="text" name="endereco" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="insira o endereço">
       </div>
     </div>
 
     <div class="col-md-2">
       <div class="form-group">
-      <label for="exampleInputEmail1">Nivel</label>
+      <label style="font-weight: bold;" for="exampleInputEmail1">Nivel</label>
       <select class="form-control" name="nivel" style="margin-top: 5px;">
       <option>---</option>
       <option>---</option>
@@ -59,19 +59,19 @@
 <div class="row">
   <div class="col-md-6">
     <div class="form-group">
-    <label for="exampleInputEmail1">Email</label>
+    <label style="font-weight: bold;" for="exampleInputEmail1">Email</label>
     <input type="text" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="inserir gmail">
     </div>
   </div>
   <div class="col-md-4">
     <div class="form-group">
-    <label for="exampleInputEmail1">Senha</label>
+    <label style="font-weight: bold;" for="exampleInputEmail1">Senha</label>
     <input type="text" name="senha" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="inserir senha">
     </div>
   </div>
   <div class="col-md-2">
       <div class="form-group">
-      <label for="exampleInputEmail1">Status</label>
+      <label style="font-weight: bold;" for="exampleInputEmail1">Status</label>
       <select class="form-control" name="status" style="margin-top: 5px;">
       <option>---</option>
       <option>---</option>
