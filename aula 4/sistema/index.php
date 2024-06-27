@@ -25,7 +25,7 @@
             echo "Verifique seu usuário e senha";
           }
       }else {
-        echo "clique no botao";
+        //echo "clique no botao";
       }
 
     ?>

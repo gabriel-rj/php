@@ -12,7 +12,7 @@
     <title>Olá, mundo!</title>
   </head>
   <body>
-<div class="container">
+  <div class="container">
 <?php 
     require "includes/menu.php"; 
     
@@ -27,9 +27,39 @@
 
   
   ?>
-  <h1>Cadastro Produtinho</h1>
+    <h1>Cadastro Produtinho</h1>
+
+  <form method="post" action="acao/acaoProduto.php" enctype="multipart/form-data">
+
+  <div class="form-group">
+    <label for="exampleInputEmail1">Nome do produto</label>
+    <input type="text" name="produto" class="form-control"  aria-describedby="emailHelp" placeholder="Cadastro produto">
+  </div>
+
+  <div class="form-group">
+    <label for="exampleInputEmail1">Categoria do Produto</label>
+    <input type="text" name="categoria" class="form-control"  aria-describedby="emailHelp" placeholder="Categoria">
+  </div>
+
+  <div class="form-group">
+    <label for="exampleInputEmail1">Upload de imagem</label>
+    <input type="file" name="foto" class="form-control"  aria-describedby="emailHelp" >
+  </div>
+  
+  <div class="form-group">
+    <label for="exampleFormControlTextarea1">Mensagem</label>
+    <textarea class="form-control" name="mensagem" rows="3"></textarea>
+  </div>
+
+  <input type="submit" name="enviar" value="Cadastrar Produto" class="btn btn-dark">
+</form>
 
   <?php require "includes/rodape.php";?>
+</div>
+
+
+  
+
 </div>
     <!-- JavaScript (Opcional) -->
     <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
