@@ -21,7 +21,7 @@
         }
         //header("Location:../cadastroProduto.php");
         echo "<img width = '100>' src='imagem/" . $md5 . $_FILES["foto"]["name"] . " '/> ";
-        echo $produto ." ". $categoria." ". $mensagem;
+        echo $produto ." <br> ". $categoria." <br> ". $mensagem;
     }else{
         echo "Não foi possível cadastrar";
     }
