@@ -35,7 +35,7 @@
 <div class="row">
   <div class="col-md-12">
     <div class="form-group">
-    <label for="exampleInputEmail1">Nome</label>
+    <label  style="font-weight: bold;" for="exampleInputEmail1">Nome</label>
     <input type="text" name="nome" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Seu nome">
     </div>
   </div>
@@ -44,26 +44,26 @@
 <div class="row">
     <div class="col-md-4">
       <div class="form-group">
-      <label for="exampleInputEmail1">Cpf</label>
+      <label  style="font-weight: bold;" for="exampleInputEmail1">Cpf</label>
       <input type="text" name="cpf" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="000.000.000-00">
       </div>
     </div>
     <div class="col-md-4">
       <div class="form-group">
-      <label for="exampleInputEmail1">Data de nascimento<data value=""></data></label>
+      <label  style="font-weight: bold;"for="exampleInputEmail1">Data de nascimento<data value=""></data></label>
       <input type="date" name="data" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="dd/mm/yy">
       </div>
     </div>
-    <div class="col-md-4">sexo
+    <div class="col-md-4"  style="font-weight: bold;">sexo
           <div class="form-check">
         <input class="form-check-input" type="radio" name="radios"  value="Masculino">
-        <label class="form-check-label" for="exampleRadios1">
+        <label   class="form-check-label" for="exampleRadios1">
           Masculino
         </label>
       </div>
       <div class="form-check">
         <input class="form-check-input" type="radio" name="radios"  value="Feminino">
-        <label class="form-check-label" for="exampleRadios2">
+        <label  class="form-check-label" for="exampleRadios2">
           Feminino
         </label>
       </div>
@@ -71,7 +71,7 @@
 </div>
 
   <div class="row">
-  <div class="col-md-4">estado civil
+  <div  style="font-weight: bold;" class="col-md-4">estado civil
   <select class="form-control" name="ec" style="margin-top: 5px;">
   <option>solteiro</option>
   <option>casado</option>
@@ -80,7 +80,7 @@
   </div>
     <div class="col-md-4">
       <div class="form-group">
-      <label for="exampleInputEmail1">Renda Mensal</label>
+      <label  style="font-weight: bold;" for="exampleInputEmail1">Renda Mensal</label>
       <input type="text" name="renda" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="0,00">
       </div>
     </div>  
@@ -90,26 +90,26 @@
   <div class="row">
   <div class="col-md-6">
   <div class="form-group">
-      <label for="exampleInputEmail1">Logradouro</label>
+      <label   style="font-weight: bold;" for="exampleInputEmail1">Logradouro</label>
       <input type="text" name="logradouro" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="av.pau">
       </div>
   </div>
     <div class="col-md-3">
     <div class="form-group">
-      <label for="exampleInputEmail1">Número</label>
+      <label  style="font-weight: bold;" for="exampleInputEmail1">Número</label>
       <input type="text" name="numero" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="ñ">
       </div>
     </div>
     <div class="col-md-3">
     <div class="form-group">
-      <label for="exampleInputEmail1">Complemento</label>
+      <label  style="font-weight: bold;" for="exampleInputEmail1">Complemento</label>
       <input type="text" name="complemento" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Casa, Apto, Loja">
       </div>
     </div>
   </div>
 
   <div class="row">
-  <div class="col-md-6">estado
+  <div class="col-md-6"  style="font-weight: bold;">estado
   <select class="form-control" name="estado" style="margin-top: 5px;">
   <option>Acre</option>
   <option>Bahia</option>
@@ -118,7 +118,7 @@
   </div>
     <div class="col-md-6">
     <div class="form-group">
-      <label for="exampleInputEmail1">Cidade</label>
+      <label  style="font-weight: bold;" for="exampleInputEmail1">Cidade</label>
       <input type="text" name="cidade" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="São Paulo">
     </div>
     </div>
