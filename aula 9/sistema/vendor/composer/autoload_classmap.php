@@ -6,6 +6,6 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Banana' => $baseDir . '/sistema/Banana.php',
+    'Banana' => $baseDir . '/sistema/Controller/Banana.php',
     'Composer\\InstalledVersions' => $vendorDir . '/composer/InstalledVersions.php',
 );

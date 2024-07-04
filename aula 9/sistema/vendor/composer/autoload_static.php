@@ -7,7 +7,7 @@ namespace Composer\Autoload;
 class ComposerStaticInit63e093114cdb17ef1591255b1748d4e2
 {
     public static $classMap = array (
-        'Banana' => __DIR__ . '/../..' . '/sistema/Banana.php',
+        'Banana' => __DIR__ . '/../..' . '/sistema/Controller/Banana.php',
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
     );
 
